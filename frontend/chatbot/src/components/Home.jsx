@@ -15,7 +15,7 @@ export default function Home() {
       clearTimeout(homeTimer);
     };
   }, []);
-
+ 
   const handleNavigation = (lang) => {
     if (lang === 'Marathi') navigate('/about');
     else if (lang === 'English') navigate('/contact');
